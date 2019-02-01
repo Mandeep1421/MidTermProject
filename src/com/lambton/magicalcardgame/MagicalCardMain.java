@@ -22,6 +22,8 @@ public class MagicalCardMain {
         String FirstShuffleColPos = scanner. nextLine();
         magicalCardGameModel.setFirstShuffleColPos(FirstShuffleColPos);
 
+
+
     }
 
 }
