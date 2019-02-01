@@ -7,12 +7,14 @@ public class MagicalCardGameModel {
     String [][]cardList= null;
     String [][]firstShuffle=null;
     String guessedCard;
-    public String getFirstShuffleColPos() {
-        return firstShuffleColPos;
-    }
+
 
     public void setFirstShuffleColPos(String firstShuffleColPos) {
         this.firstShuffleColPos = firstShuffleColPos;
+    }
+
+    public String getFirstShuffleColPos() {
+        return firstShuffleColPos;
     }
 
     public void setCardList(String [] [] cardList){
