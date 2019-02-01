@@ -10,8 +10,13 @@ public class MagicalCardGameModel {
     public String getFirstShuffleColPos() {
         return firstShuffleColPos;
     }
+
     public void setFirstShuffleColPos(String firstShuffleColPos) {
         this.firstShuffleColPos = firstShuffleColPos;
+    }
+
+    public void setCardList(String [] [] cardList){
+        this.cardList=cardList;
     }
 
     public String getSecShuffleColPos() {
